@@ -1,0 +1,16 @@
+.buttons{
+   display: flex;
+   gap: 20px;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    margin-top:0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: black;
+}

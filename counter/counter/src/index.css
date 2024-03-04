@@ -1,0 +1,13 @@
+
+.body{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 40vh;
+    border: 5px solid green;
+    margin-left: 450px;
+    margin-top: 200px;
+    background-color:beige;
+   
+}
