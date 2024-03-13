@@ -3,7 +3,8 @@ input{
     width: 600px;
     background-color:yellow;
     border-radius: 5px;
-    font-size: 20px;
+    border-width: thick;
+    font-size: 30px;
     text-align: center;
     position:absolute ;
     right:600px;

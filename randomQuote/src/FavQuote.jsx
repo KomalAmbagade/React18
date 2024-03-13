@@ -3,14 +3,11 @@ import './index.css'
 const FavQuote = (props) => {
   return (
     <div>
-      <div>
-      {props.combinedState.savequote}
-      </div>
-
+      {props.q}
       <div className='saveauthor'>
-      ~{props.combinedState.saveauthor}
+        ~{props.a}
       </div>
-
+     
       <div style={{padding:"10px"}}>
       <button  className='btn3' onClick={() => props.remove(props.index)}>Clear</button>
       </div>

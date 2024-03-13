@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react'
 import FavQuote from './FavQuote';
 import axios from 'axios'
-import './index.css'
+
+
 function App ()
 {
   const [quote, setQuote] = useState("");
@@ -9,6 +10,7 @@ function App ()
   const [btnClick,setbtnClick]=useState(0)
   const[savequote,setSavequote]=useState([])
   const[saveauthor,setSaveauthor]=useState([])
+
   useEffect(() =>
   {
     axios.get("https://api.quotable.io/random")
@@ -23,7 +25,7 @@ function App ()
     setSavequote([...savequote,quote])   
     setSaveauthor([...saveauthor,author])
   }
-  const combinedState = { savequote, saveauthor };
+  
 
   const remove = (id) => {
 
@@ -53,16 +55,14 @@ function App ()
 
               <div >
               {
-                
-                savequote.map((q,i)=>(
-              
+                  savequote.map((value, index) => (
                     <div className='save'>
-                    <h4>Fav Quote</h4>
-                    <FavQuote combinedState={combinedState} index={i}  remove={remove} />
+                      <h1>Fav Quote</h1>
+                     <div key={index}>
+                     <FavQuote q={value} a={saveauthor[index]} index={index}  remove={remove}/>
+                     </div>
                     </div>
-                  
-                  ) 
-                )
+                  ))
               }  
             </div>
           </div>  
@@ -72,4 +72,4 @@ function App ()
   )
 }
 
-export default App
+export default App;

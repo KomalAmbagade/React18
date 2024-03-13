@@ -17,12 +17,9 @@ function App() {
   },
   [searchTerm]
   )
-
-
-
   return (
     <div>
-      <div style={{padding:"20px"}}>
+      <div style={{padding:"20px" }}>
         <input type="text" value={searchTerm} onChange={(e)=>setSearchTerm(e.target.value)} placeholder='Search the Movies here'/>
       </div>
       <Movies moviesList={moviesList}/>
