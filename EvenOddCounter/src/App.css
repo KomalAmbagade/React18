@@ -1,0 +1,26 @@
+button{
+    height: 40px;
+    width: 100px;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 15px;
+    margin-right: 50px;
+   
+}
+.count
+{
+   color:blue;
+    text-align: center;
+  
+}
+h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.content{
+    height: 250px;
+    width:300px ;
+    border-style: solid;
+    padding: 100px;
+}

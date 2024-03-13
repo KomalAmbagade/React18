@@ -1,0 +1,41 @@
+h1
+{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    position: absolute;
+    right: -0px;
+    margin-top: -40px;
+    margin-right: 30px;
+    font-size: 30px;
+    border-style: solid;
+    height: 40px;
+    width: 130px;
+    padding: 5px;
+    text-align: center;
+    background-color:gold;
+    
+}
+button{
+    height: 40px;
+    width: 100px;
+    color: white;
+    font-size: 15px;
+    background-color:gray;
+    position: relative;
+    right: 0px;
+    margin-top: 10px;
+    
+}
+p{
+    font-size: 25px;
+    color: red;
+}
+.tx{
+  height: 95px;
+  
+ 
+}

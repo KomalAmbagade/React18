@@ -1,0 +1,82 @@
+.page
+{
+  background-image: linear-gradient(to right bottom, #ed4264a8, #ffedbca8); 
+  height: 100vh;
+  width: 100vw;
+}
+.box
+{
+  height: 400px;
+  width: 800px;
+  background-color:linen;
+  opacity: 0.9;
+  position: absolute;
+  left: 26%;
+  margin-top: 60px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  padding: 40px;
+  text-align: center;
+}
+.quote
+{
+  font-family:'Courier New', Courier, monospace;
+  font-size: 30px;
+  font-weight:600;
+ 
+}
+.author{
+  font-size: 22px;
+
+}
+.bt{
+  padding: 30px;
+}
+
+.btn{
+  height: 30px;
+  width: 120px;
+  font-size: larger;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px #a8a6a6;
+  margin-bottom: 220px;
+}
+.btn2{
+  position: absolute;
+  height: 30px;
+  width: 50px;
+  color: black;
+  background-color:rgb(93, 225, 93);
+  top: 20px;
+  right:30px;
+  font-weight: bold;
+  border-radius: 100px;
+
+}
+.save{
+  height: 300px;
+  width:300px;
+  display:inline-table;
+  margin:20px;
+  color: white;
+  text-align: center;
+  font-size: larger;
+  padding: 20px;
+  font-weight: bold;
+  background-color: rgba(219, 56, 56, 0.953);
+  
+}
+.btn3{
+ color:white;
+ width: 60px;
+ height: 25px;
+ background-color: rgb(71, 66, 66);
+
+}
+.saveauthor{
+  padding: 15px;
+  font-size: smaller;
+  font-weight: lighter;
+}
