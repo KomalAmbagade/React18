@@ -1,0 +1,48 @@
+.btn{
+  height: 100vh;
+  width: 100vw;
+  background-color:rgba(255, 182, 193, 0.512);
+  border-style:solid;
+  border-width:thick;
+ 
+}
+
+.btn1{
+ position:fixed;
+ left: 200px;
+ top:200px;
+ font-size:50px;
+
+}
+
+.btn2{
+  position:fixed;
+  left: 700px;
+  top:200px;
+  font-size:50px;
+
+}
+
+.btn3
+{
+  position:fixed;
+  left: 1200px;
+  top:200px;
+  font-size:50px;
+}
+button{
+  height: 40px;
+  width: 150px;
+  font-size: 12px;
+  font-weight:600;
+  color:white;
+  background-color: black;
+  border-radius: 10px;
+  margin: 5px;
+}
+p{
+  color:royalblue;
+  font-weight: bolder;
+  text-shadow: 6px 6px 15px rgb(182, 75, 75);
+  background-color:rgba(231, 53, 231, 0.085)
+}
