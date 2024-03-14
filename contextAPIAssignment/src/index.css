@@ -1,0 +1,17 @@
+button{
+    height: 40px;
+    width: 150px;
+    font-size: 13px;
+    font-weight:600;
+    color:white;
+    background-color: black;
+    border-radius: 10px;
+  }
+  p{
+    
+    font-family:'Courier New', Courier, monospace;
+    margin-top: -5px;
+    font-size:25px;
+    font-weight:800;
+    text-shadow: 5px 5px 8px ;
+  }
