@@ -18,7 +18,7 @@ const App = () => {
   return (
     <div style={{width:'800px',height:'700px',border:'4px solid red',padding:"100px"}}>
      <h2>App Component</h2>
-      <button onClick={toggleDarkMode}  style={{position:"absolute" ,left:"30px" ,top:"30px"}}>{isDarkMode?('light'):('dark')}</button>
+      <button onClick={toggleDarkMode}  style={{position:"absolute" ,left:"30px" ,top:"30px"}}>{isDarkMode?('Light Mode'):('Dark Mode')}</button>
       <mainContext.Provider value={{mode,textcolor}}>
         <Component />
 			</mainContext.Provider>
