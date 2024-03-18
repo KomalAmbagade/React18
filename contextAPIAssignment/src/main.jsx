@@ -1,10 +1,10 @@
 import React, { createContext } from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import ContextAPIApp from './ContextAPIApp.jsx'
 
 export const mainContext=createContext()
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <ContextAPIApp />
   </React.StrictMode>,
 )

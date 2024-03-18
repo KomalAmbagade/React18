@@ -1,26 +1,26 @@
-button{
-    height: 40px;
-    width: 100px;
-    color: white;
-    font-size: 20px;
-    background-color: black;
-    border-radius: 15px;
-    margin-right: 50px;
-   
+.content{
+    height: 30%;
+    width: 30%;
+    border-style: solid;
+    padding: 50px;
+    padding-left: 20%;
+    margin-top: 10%;
+    position: absolute;
+    left:20%;
+    background-color:rgba(241, 241, 198, 0.345);
 }
-.count
-{
-   color:blue;
-    text-align: center;
-  
+.count{
+    color: crimson;
 }
 h2{
-    text-align: center;
-    padding-bottom: 20px;
+    font-size:x-large;
 }
-.content{
-    height: 250px;
-    width:300px ;
-    border-style: solid;
-    padding: 100px;
+button{
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: black;
+    font-size: medium;
+    border-radius: 10px;
+    margin-right: 10px;
 }

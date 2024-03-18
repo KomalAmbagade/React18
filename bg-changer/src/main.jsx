@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import AppClass from './AppClass.jsx'
+import BgChangerApp from './BgChangerApp.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-   <AppClass/>
+   <BgChangerApp/>
   </React.StrictMode>,
 )
